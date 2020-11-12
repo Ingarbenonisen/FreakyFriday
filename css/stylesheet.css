@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.containerHomePage {
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 5% 5% 10% 10% 70%;
+
+}
+
+.navbar  {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: transparent;
+    padding: 20px;
+}
+.navbar a {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    
+    z-index: 2;
+
+    text-decoration: none;
+    float: none;
+    position: relative;
+    padding: 50px;
+    padding-top: 30px;
+}
+.navbar a:hover {
+
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+
+.backgroundimg {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+
+   z-index: -1;
+
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    
+    z-index: 2;
+   
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.containerHomePage2 {
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40% 40% 20%;
+}
+
+.macbook {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 30px;
+}
+.macbookimg {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+}
+
+.matebookimg {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.imgfit {
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.imgfit2 {
+    max-width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
+.imgfit3 {
+    max-width: 100%;
+    height: 270px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.matebook {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 30px;
+}
+.footer {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 3;
+    grid-row-end: end;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.footer h3 {
+    font-weight: 600;
+}
+ .partnersImg img {
+     justify-self: center;
+     width: 20%;
+     padding: 15px;
+     
+ }
+ .komplettlogo {
+     margin-bottom: 33px;
+ }
+

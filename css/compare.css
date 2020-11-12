@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.containerCompare {
+    display: grid;
+    height: 150vh;
+
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 5% 5% 10% 30% 10% 70% 20% ;
+}
+
+.navbarCompare {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: transparent;
+    padding: 20px;
+}
+.navbarCompare a {
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    
+    z-index: 2;
+
+    text-decoration: none;
+    float: none;
+    position: relative;
+    padding: 50px;
+    padding-top: 30px;
+}
+.navbarCompare a:hover {
+
+    text-decoration: underline;
+    text-decoration-color:black;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+
+.navbarCompare a.active {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+.titleCompare {
+    text-align: center;
+
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.imgMacCompare {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    
+    
+}
+.imgMateCompare {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    
+}
+.imgfit4 {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    justify-self: flex-start;
+    margin-left: 200px;
+}
+.macbookCompare {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color:transparent;
+    padding: 50px;
+    text-align: center;
+}
+.matebookCompare {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 5;
+    grid-row-end: 6;
+
+    background-color:transparent;
+    padding: 50px;
+    text-align: center;
+}
+.macbookCompareInfo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 50px;
+}
+macbookCompareInfo h3 {
+    text-align: center;
+}
+.matebookCompareInfo {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: 6;
+    grid-row-end: 7;
+
+    background-color: whitesmoke;
+    padding: 50px;
+    margin: 50px;
+}
+matebookCompareInfo h3 {
+    text-align: center;
+}
+.footerCompare {
+    grid-column-start: 1;
+    grid-column-end: end;
+    grid-row-start: 7;
+    grid-row-end: 8;
+
+    background-color: whitesmoke;
+    text-align: center;
+}
