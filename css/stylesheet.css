@@ -80,10 +80,10 @@ body {
 
 .containerHomePage2 {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
 
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 40% 40% 20%;
+    grid-template-rows: 1fr 1fr 20%;
 }
 
 .macbook {
@@ -111,18 +111,16 @@ body {
     padding-bottom: 10px;
 }
 .imgfit {
-    max-width: 100%;
-    height: 300px;
+    
+    width: 20vw;
     object-fit: cover;
 }
 .imgfit2 {
-    max-width: 100%;
-    height: 310px;
+    width: 20vw;
     object-fit: cover;
 }
 .imgfit3 {
-    max-width: 100%;
-    height: 270px;
+    width: 20vw;
     object-fit: cover;
     margin-bottom: 20px;
     justify-content: center;
