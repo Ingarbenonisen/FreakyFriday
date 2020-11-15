@@ -10,6 +10,72 @@ body {
     grid-template-rows: 5% 5% 10% 30% 10% auto 20% ;
 }
 
+@media screen and (max-width: 700px) {
+    .containerCompare {
+        display: grid;
+        min-height: 150vh;
+    
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 5% 5% 10% 30% 10% auto auto auto auto 20% ;
+    }
+    .navbarCompare {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 1;
+        grid-row-end: 2;      
+    }
+    .titleCompare {
+        text-align: center;
+    
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .imgMacCompare {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 4;
+        grid-row-end: 5;          
+    }
+    .macbookCompare {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .macbookCompareInfo {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .imgMateCompare {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 7;
+        grid-row-end: 8;       
+    }
+    .matebookCompare {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    .matebookCompareInfo {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    .footerCompare {
+        grid-column-start: 1;
+        grid-column-end: end;
+        grid-row-start: 10;
+        grid-row-end: 11;
+    }
+}
+
 .navbarCompare {
     grid-column-start: 1;
     grid-column-end: end;
