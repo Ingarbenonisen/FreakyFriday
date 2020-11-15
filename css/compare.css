@@ -4,10 +4,10 @@ body {
 }
 .containerCompare {
     display: grid;
-    height: 150vh;
+    min-height: 150vh;
 
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 5% 5% 10% 30% 10% 70% 20% ;
+    grid-template-rows: 5% 5% 10% 30% 10% auto 20% ;
 }
 
 .navbarCompare {

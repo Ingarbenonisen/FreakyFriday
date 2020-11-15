@@ -111,7 +111,6 @@ body {
     padding-bottom: 10px;
 }
 .imgfit {
-    
     width: 20vw;
     object-fit: cover;
 }
